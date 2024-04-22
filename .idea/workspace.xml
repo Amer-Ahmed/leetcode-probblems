@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6edc023-f4bc-45f3-8ff9-23a6ba41080a" name="Default Changelist" comment="" />
+    <list default="true" id="e6edc023-f4bc-45f3-8ff9-23a6ba41080a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/array/mergeSortedArray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +15,11 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2eRyP18xSxZqB3DyUFeDCNWyfW4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,10 +31,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\leetcode\array" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\leetcode\array" />
     </key>
   </component>
@@ -63,7 +70,12 @@
       <workItem from="1712221389272" duration="17000" />
       <workItem from="1712223046561" duration="775000" />
       <workItem from="1712486293113" duration="2356000" />
-      <workItem from="1712490649585" duration="259000" />
+      <workItem from="1712490649585" duration="849000" />
+      <workItem from="1713438349868" duration="990000" />
+      <workItem from="1713539231982" duration="1101000" />
+      <workItem from="1713687786933" duration="17000" />
+      <workItem from="1713697642918" duration="1531000" />
+      <workItem from="1713783737403" duration="1207000" />
     </task>
     <servers />
   </component>
@@ -71,9 +83,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1712221403781">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1713687801320">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1712221403781" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1713687801320" />
   </component>
 </project>
