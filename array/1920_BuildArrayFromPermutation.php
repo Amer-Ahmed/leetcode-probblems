@@ -9,14 +9,14 @@ class Solution {
      * @return Integer[]
      */
     function buildArray($nums) {
-        $n = count($nums);
-        $result = [];
-        for ($i = 0; $i < $n; $i++) {
-            $result[] = $nums[$nums[$i]];
+        $itemsCount = count($nums);
+        $result = array_fill(0, $itemsCount, 0);
+        foreach ($nums as $i => $num) {
+            $result[$i] = $nums[$num];
         }
         return $result;
     }
 }
 echo '<pre>';
 $obj = new Solution();
-$obj->buildArray([0,2,1,5,3,4]);  // out put = [0,1,2,4,5,3]
+$obj->buildArray([0,2,1,5,3,4]);  // output = [0,1,2,4,5,3]
