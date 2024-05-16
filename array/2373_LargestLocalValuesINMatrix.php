@@ -24,6 +24,3 @@ class Solution {
         return $maxLocal;
     }
 }
-echo '<pre>';
-$obj = new Solution();
-$obj->largestLocal([[9,9,8,1],[5,6,2,6],[8,2,6,4],[6,2,2,2]]);
