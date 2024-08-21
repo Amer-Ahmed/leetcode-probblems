@@ -1,0 +1,11 @@
+# problemUrl = https://leetcode.com/problems/tree-node/description/
+
+SELECT
+    t1.id,
+    CASE
+        WHEN t1.p_id IS NULL THEN 'Root'
+        WHEN t1.id NOT IN (SELECT DISTINCT p_id FROM Tree WHERE p_id IS NOT NULL) THEN 'Leaf'
+        ELSE 'Inner'
+    END AS type
+FROM
+    Tree t1;
